@@ -1,4 +1,4 @@
-subdir('budgie')
-subdir('gnome')
+subdir('fortitude')
 subdir('livecd')
-subdir('material')
+subdir('legacy')
+subdir('shannon')

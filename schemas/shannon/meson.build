@@ -1,6 +1,7 @@
 budgie_material_schemas = [
     'com.solus-project.budgie-menu.gschema.override',
     'com.solus-project.budgie-panel.gschema.override',
+    'com.solus-project.icon-tasklist.gschema.override',
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
@@ -11,8 +12,8 @@ budgie_material_schemas = [
     'x.dm.slick-greeter.gschema.override',
 ]
 
-custom_target('20_budgie_material_settings.gschema.override',
-    output: '20_budgie_material_settings.gschema.override',
+custom_target('20_budgie_settings.gschema.override',
+    output: '20_budgie_settings.gschema.override',
     capture: true,
     input: budgie_material_schemas,
     command: ['cat', '@INPUT@'],

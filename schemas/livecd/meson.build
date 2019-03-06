@@ -1,11 +1,12 @@
 livecd_schemas = [
+    'com.solus-project.budgie-wm.gschema.override',
     'com.solus-project.icon-tasklist.gschema.override',
     'com.solus-project.software-center.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
 ]
 
-custom_target('30_budgie_livecd.gschema.override',
-    output: '30_budgie_livecd.gschema.override',
+custom_target('40_budgie_settings.gschema.override',
+    output: '40_budgie_settings.gschema.override',
     capture: true,
     input: livecd_schemas,
     command: ['cat', '@INPUT@'],

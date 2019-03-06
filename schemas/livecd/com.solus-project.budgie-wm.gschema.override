@@ -1,0 +1,3 @@
+[com.solus-project.budgie-wm]
+caffeine-mode=true
+caffeine-mode-notification=false
