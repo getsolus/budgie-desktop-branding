@@ -1,4 +1,3 @@
-subdir('all')
 subdir('fortitude')
 subdir('livecd')
 subdir('legacy')

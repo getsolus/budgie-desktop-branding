@@ -19,3 +19,9 @@ custom_target('20_budgie_settings.gschema.override',
     install: true,
     install_dir: path_schemadir,
 )
+
+path_budgiedir = join_paths(path_datadir, 'budgie-desktop', 'layouts')
+install_data(
+    'solus-material.layout',
+    install_dir: path_budgiedir,
+)
