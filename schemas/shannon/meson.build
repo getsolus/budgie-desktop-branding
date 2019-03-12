@@ -5,7 +5,6 @@ budgie_material_schemas = [
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.interface.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
-    'org.gnome.gedit.preferences.editor.override',
     'org.gnome.nautilus.desktop.gschema.override',
     'org.gnome.nautilus.icon-view.gschema.override',
     'org.gnome.desktop.wm.preferences.gschema.override',
