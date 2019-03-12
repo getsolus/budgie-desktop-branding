@@ -8,6 +8,7 @@ schemas = [
     'org.gnome.desktop.wm.preferences.gschema.override',
     'org.gnome.nautilus.icon-view.gschema.override',
     'org.gtk.settings.file-chooser.gschema.override',
+    'x.dm.slick-greeter.gschema.override',
 ]
 
 custom_target('30_budgie_settings.gschema.override',
