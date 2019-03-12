@@ -3,6 +3,7 @@ livecd_schemas = [
     'com.solus-project.icon-tasklist.gschema.override',
     'com.solus-project.software-center.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
+    'org.gnome.desktop.session.gschema.override',
 ]
 
 custom_target('40_budgie_settings.gschema.override',
