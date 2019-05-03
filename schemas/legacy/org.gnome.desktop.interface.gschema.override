@@ -1,5 +1,7 @@
 [org.gnome.desktop.interface]
 cursor-theme='breeze-cursor'
+document-font-name='Clear Sans 10'
 font-name='Clear Sans 10'
+monospace-font-name='Hack 10'
 gtk-theme='Arc-Darker'
 icon-theme='Arc'
