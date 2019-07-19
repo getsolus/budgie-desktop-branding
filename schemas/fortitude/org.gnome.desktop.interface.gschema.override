@@ -1,5 +1,5 @@
 [org.gnome.desktop.interface]
-cursor-theme='breeze-cursor'
+cursor-theme='breeze_cursors'
 document-font-name='Noto Sans 9'
 font-name='Noto Sans 9'
 monospace-font-name='Hack 9'
