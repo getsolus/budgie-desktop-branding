@@ -9,6 +9,7 @@ schemas = [
     'org.gnome.gedit.preferences.editor.override',
     'org.gnome.nautilus.desktop.gschema.override',
     'org.gnome.nautilus.icon-view.gschema.override',
+    'org.gnome.nautilus.preferences.gschema.override',
     'org.gtk.settings.file-chooser.gschema.override',
     'x.dm.slick-greeter.gschema.override',
 ]
