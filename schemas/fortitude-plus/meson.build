@@ -1,5 +1,6 @@
 schemas = [
     'org.gnome.nautilus.preferences.gschema.override',
+    'us.getsol.budgie-desktop-view.gschema.override',
 ]
 
 custom_target('40_budgie_settings.gschema.override',
