@@ -6,8 +6,8 @@ livecd_schemas = [
     'org.gnome.desktop.session.gschema.override',
 ]
 
-custom_target('40_budgie_settings.gschema.override',
-    output: '40_budgie_settings.gschema.override',
+custom_target('50_budgie_settings.gschema.override',
+    output: '50_budgie_settings.gschema.override',
     capture: true,
     input: livecd_schemas,
     command: ['cat', '@INPUT@'],

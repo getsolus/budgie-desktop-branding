@@ -1,13 +1,15 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
-git submodule init
-git submodule update
+rm -rf build
+meson --prefix /usr build
+ninja dist -C build
 
-VERSION="20.2"
-NAME="budgie-desktop-branding"
-git-archive-all --format tar --prefix ${NAME}-${VERSION}/ --verbose -t HEAD ${NAME}-${VERSION}.tar
-xz -9 "${NAME}-${VERSION}.tar"
+VERSION=$(grep "version:" meson.build | head -n1 | cut -d"'" -f2)
+TAR="budgie-desktop-branding-${VERSION}.tar.xz"
+VTAR="budgie-desktop-branding-v${VERSION}.tar.xz"
 
-gpg --armor --detach-sign "${NAME}-${VERSION}.tar.xz"
-gpg --verify "${NAME}-${VERSION}.tar.xz.asc"               
+mv build/meson-dist/$TAR $VTAR
+
+gpg --armor --detach-sign $VTAR
+gpg --verify "${VTAR}.asc"

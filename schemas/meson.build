@@ -1,4 +1,5 @@
 subdir('fortitude')
+subdir('fortitude-plus')
 subdir('livecd')
 subdir('legacy')
 subdir('shannon')
