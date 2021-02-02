@@ -1,6 +1,9 @@
 schemas = [
+    'org.gnome.desktop.background.gschema.override',
+    'org.gnome.desktop.screensaver.gschema.override',
     'org.gnome.nautilus.preferences.gschema.override',
     'us.getsol.budgie-desktop-view.gschema.override',
+    'x.dm.slick-greeter.gschema.override',
 ]
 
 custom_target('40_budgie_settings.gschema.override',

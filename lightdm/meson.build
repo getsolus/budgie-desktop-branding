@@ -15,3 +15,8 @@ install_data(
     '30_budgie_fortitude.conf',
     install_dir: lightdm_gtk_dir,
 )
+
+install_data(
+    '40_budgie_fortitude.conf',
+    install_dir: lightdm_gtk_dir,
+)
