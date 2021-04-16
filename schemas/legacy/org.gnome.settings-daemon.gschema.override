@@ -1,3 +1,3 @@
-[org.gnome.settings-daemon.plugins.xsettings]
-antialiasing='rgba'
-hinting='slight'
+[org.gnome.interface]
+font-antialiasing='rgba'
+font-hinting='slight'
