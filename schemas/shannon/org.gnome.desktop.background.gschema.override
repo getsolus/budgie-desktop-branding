@@ -1,3 +1,7 @@
+[org.gnome.desktop.background:Budgie]
+picture-uri='file:///usr/share/backgrounds/solus/IMG_9710.png'
+show-desktop-icons=true
+
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/solus/IMG_9710.png'
 show-desktop-icons=true
