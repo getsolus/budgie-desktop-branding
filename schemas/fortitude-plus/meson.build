@@ -2,7 +2,7 @@ schemas = [
     'org.gnome.desktop.background.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
     'org.gnome.nautilus.preferences.gschema.override',
-    'us.getsol.budgie-desktop-view.gschema.override',
+    'org.buddiesofbudgie.budgie-desktop-view.gschema.override',
     'x.dm.slick-greeter.gschema.override',
 ]
 
