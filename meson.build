@@ -1,7 +1,7 @@
 project(
     'budgie-desktop-branding',
     ['c'],
-    version: '21.1',
+    version: '21.2',
     license: [
         'GPL-2.0-only',
     ],
