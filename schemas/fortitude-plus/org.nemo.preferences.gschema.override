@@ -1,0 +1,4 @@
+[org.nemo.preferences]
+click-policy='single'
+selection-menu-make-link=true
+show-image-thumbnails='always'

@@ -3,6 +3,9 @@ schemas = [
     'org.gnome.desktop.screensaver.gschema.override',
     'org.gnome.nautilus.preferences.gschema.override',
     'org.buddiesofbudgie.budgie-desktop-view.gschema.override',
+    'org.nemo.desktop.gschema.override',
+    'org.nemo.preferences.gschema.override',
+    'org.nemo.window.gschema.override',
     'x.dm.slick-greeter.gschema.override',
 ]
 
