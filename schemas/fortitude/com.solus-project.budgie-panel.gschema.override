@@ -1,4 +1,0 @@
-[com.solus-project.budgie-panel]
-builtin-theme=false
-show-builtin-theme-option=true
-layout='solus-fortitude'
