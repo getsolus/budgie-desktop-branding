@@ -1,6 +1,5 @@
 schemas = [
     'com.solus-project.budgie-panel.gschema.override',
-    'com.solus-project.budgie-raven.gschema.override',
     'com.solus-project.icon-tasklist.gschema.override',
     'org.buddiesofbudgie.budgie-desktop-view.gschema.override',
     'org.gnome.desktop.background.gschema.override',
