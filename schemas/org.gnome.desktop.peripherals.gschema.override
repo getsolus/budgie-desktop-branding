@@ -1,0 +1,5 @@
+[org.gnome.desktop.peripherals]
+disable-while-typing=false
+tap-to-click=true
+natural-scroll=false
+click-method='default'
