@@ -2,7 +2,7 @@
 set -e
 
 rm -rf build
-meson --prefix /usr build
+meson setup --prefix /usr build
 ninja dist -C build
 
 VERSION=$(grep "version:" meson.build | head -n1 | cut -d"'" -f2)
