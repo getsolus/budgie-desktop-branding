@@ -1,2 +1,2 @@
 [com.solus-project.icon-tasklist]
-pinned-launchers=['solus-sc.desktop','nemo.desktop', 'firefox.desktop', 'io.github.celluloid_player.Celluloid.desktop', 'org.gnome.Rhythmbox3.desktop']
+pinned-launchers=['org.kde.discover.desktop','nemo.desktop', 'firefox.desktop', 'io.github.celluloid_player.Celluloid.desktop', 'org.gnome.Rhythmbox3.desktop']
