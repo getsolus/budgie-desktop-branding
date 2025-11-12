@@ -1,5 +1,5 @@
 [org.gnome.desktop.screensaver:Budgie]
-picture-uri='file:///usr/share/backgrounds/budgie/singaporean-cityscape.jpg'
+picture-uri='file:///usr/share/backgrounds/solus/vents-du-sud.jxl'
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/budgie/singaporean-cityscape.jpg'
+picture-uri='file:///usr/share/backgrounds/solus/vents-du-sud.jxl'
