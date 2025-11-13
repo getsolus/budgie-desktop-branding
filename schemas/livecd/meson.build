@@ -1,7 +1,6 @@
 livecd_schemas = [
     'com.solus-project.budgie-wm.gschema.override',
     'com.solus-project.icon-tasklist.gschema.override',
-    'com.solus-project.software-center.gschema.override',
     'org.gnome.desktop.screensaver.gschema.override',
     'org.gnome.desktop.session.gschema.override',
 ]
