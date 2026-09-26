@@ -12,6 +12,7 @@ schemas = [
     'org.gnome.gedit.preferences.editor.gschema.override',
     'org.gnome.nautilus.icon-view.gschema.override',
     'org.gnome.nautilus.preferences.gschema.override',
+    'org.gnome.settings-daemon.plugins.housekeeping.gschema.override',
     'org.gtk.settings.file-chooser.gschema.override',
     'org.nemo.desktop.gschema.override',
     'org.nemo.preferences.gschema.override',
